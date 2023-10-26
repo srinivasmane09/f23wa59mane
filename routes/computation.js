@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
         res.write('<br>Math.abs() applied to ' + value + ' is ' + Math.abs(value))
         res.write('Math.acos() applied to ' + value + ' is ' + Math.acos(value));
         res.write('<br>Math.sin() applied to ' + value + ' is ' + Math.sin(value))
-        res.write('Math.sinh() applied to ' + value + ' is ' + Math.sinh(2,value));
+        res.write('Math.sinh() applied to ' + value + ' is ' + Math.sinh(value));
     
 
         res.end()
